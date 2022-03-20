@@ -133,14 +133,19 @@ a.nav-link {
 /* Main Container */
 .pp-container {
   width: 75%;
-  margin: 8% auto 50px auto;
-  background: rgba(73, 46, 13, 0.782);
+  margin: 8% auto 30px auto;
+  background: rgba(73, 46, 13, 0.83);
   z-index: 10;
   border-radius: 10px;
 }
 
+.pp-section {
+  margin: 1% auto 30px auto;
+}
+
 .pp-container h1 {
-  padding: 10px 0 10px 0;
+  /* padding: 10px 0 12px 0; */
+  line-height: 2;
   text-align: center;
   color: #f0ffff;
   font-weight: 800;
@@ -193,6 +198,7 @@ footer {
   color: #b6a484;
   box-shadow: 0px 0px 16px 9px black;
   padding: 15px 0;
+  margin-top: 5%;
 }
 
 footer p {
